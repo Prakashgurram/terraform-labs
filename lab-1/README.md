@@ -20,9 +20,12 @@ Change the ami and subnet_id values as per the requirment
 
 Initialize the Terraform configuration and download the required providers using the command `terraform init`.
 ![1](outputs/pic1.PNG)
+
 Review the actions that will be performed when you deploy your code using the command `'terraform plan`.
 ![1](outputs/pic2.PNG)
+
 Deploy the code by using the command `terraform apply`.
 ![1](outputs/pic3.PNG)
+
 Verify that the resource was created correctly in the AWS Management Console.
 
