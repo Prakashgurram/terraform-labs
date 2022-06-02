@@ -2,7 +2,9 @@
 
 #### step-1: Create a Directory and Write Your Terraform Code (Write)
 Create a new directory in the home directory called terraform_code using the command `mkdir terraform-code`.
+
 Switch to the new directory using the command `cd terraform-code`.
+
 Create a new file main.tf using the command `vim main.tf` and paste the following code.
 ```provider "aws" {
   region = "us-east-1"
