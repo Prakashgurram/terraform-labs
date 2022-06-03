@@ -16,7 +16,7 @@ Switch to the directory where the code is located: `cd lab_code/section2-hol1/`.
 
 check the content of 'main.tf' file.
 
-![1](outpus/pic13.PNG)
+![1](outputs/pic13.PNG)
 
 #### step-3: Deploy the Terraform Code
 
