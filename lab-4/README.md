@@ -39,7 +39,9 @@ Verify that the pods required were created by the code as configured using kubec
 There are currently 2 pods in the deployment.
 ![1](outputs/pic15.PNG)
 
-List all the resources being tracked by the Terraform state file using the terraform state command:
+#### step-4: Observe How the Terraform State File Tracks Resources
+
+List all the resources being tracked by the Terraform state file using the `terraform state` command:
 
 terraform state list
 There are two resources being tracked: kubernetes_deployment.tf-k8s-deployment and kubernetes_service.tf-k8s-service
