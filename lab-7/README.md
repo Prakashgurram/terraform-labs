@@ -41,7 +41,7 @@ Note the name of the resource that is created by this code; in this case, it wou
 
 Inside the provisioner block, find the following line of code that outputs the content on a webpage, which currently displays Version 1:
 
-echo '<h1><center>My Website via Terraform Version 1</center></h1>'.
+    echo '<center>My Website via Terraform Version 1</center>'.
 In this line of code, change Version 1 to Version 2
 
 Use the terraform taint command and the name of the resource to tell Terraform to replace that resource and run the provisioner again upon the next deployment: `terraform taint aws_instance.webserver`.
