@@ -30,5 +30,5 @@ When prompted, type yes, and press Enter.
 When complete, it will output the public IP for the Apache webserver as the Webserver-Public-IP value.
 ![1](outputs/pic9.PNG)
 
-Copy the IP address, and browse it in the new browser.
+Copy the IP address, and browse it in the browser.
 ![1](outputs/pic10.PNG)
